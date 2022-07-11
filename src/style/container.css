@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+.container_item {
+    width:250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_item_title {
+    display: flex;
+    justify-content: space-between;
+}
+
+#ci_title {
+    font-weight: bold;
+}
+
+#ci_bt {
+    font-weight: bold;
+}
+
+.ci_price {
+    font-weight: bold;
+}
+
+#img_bt1 {
+    display:block;
+    position: relative;
+    top: 10px;
+    left: 50px; 
+    font-size:18x; 
+    line-height:40px; 
+    margin-top:30px; 
+    opacity:0; 
+    transition:0.5s all
+}
+
+.container_item:hover #img_bt1 {opacity:1}

@@ -1,0 +1,18 @@
+.filter {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter_item {
+    display: flex;
+    flex-direction: column;
+}
+
+.fitem_title {
+    font-weight: bold;
+}
+
+.bed_bt {
+    display: flex;
+    justify-content: space-around;
+}
